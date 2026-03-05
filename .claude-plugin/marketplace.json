@@ -1,0 +1,21 @@
+{
+  "name": "alondai",
+  "plugins": [
+    {
+      "name": "github-security-audit",
+      "source": {
+        "source": "github",
+        "repo": "alondai/github-security-audit"
+      },
+      "description": "对 GitHub 仓库或本地目录进行全栈安全审计，检测恶意代码、后门和供应链攻击，生成报告保存到 Obsidian",
+      "version": "1.0.0",
+      "author": {
+        "name": "alondai"
+      },
+      "repository": "https://github.com/alondai/github-security-audit",
+      "license": "MIT",
+      "keywords": ["security", "audit", "github", "malware-detection", "supply-chain"],
+      "category": "developer-tools"
+    }
+  ]
+}
