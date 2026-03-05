@@ -1,0 +1,21 @@
+# Python
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 测试和演示生成的文件
+demo-reports/
+test-reports/
+audit-reports/
+
+# 临时文件
+.DS_Store
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.iml
