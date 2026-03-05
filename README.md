@@ -15,8 +15,11 @@
 ## 安装
 
 ```bash
-# 创建软链接
-ln -s $(pwd) ~/.claude/skills/github-security-audit
+# 克隆仓库
+git clone https://github.com/alondai/github-security-audit.git
+
+# 创建软链接到 Claude Code skills 目录
+ln -s $(pwd)/github-security-audit ~/.claude/skills/github-security-audit
 
 # 验证
 ls -l ~/.claude/skills/github-security-audit
