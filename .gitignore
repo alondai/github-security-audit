@@ -19,3 +19,48 @@ audit-reports/
 .vscode/
 .idea/
 *.iml
+
+# ============ 敏感信息（绝对不能提交） ============
+# 环境变量
+.env
+.env.local
+.env.*.local
+*.env
+
+# 密钥和证书
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+credentials/
+.secrets/
+
+# 云服务配置
+.aws/credentials
+.gcp/
+.azure/
+
+# SSH
+.ssh/
+id_rsa*
+id_ed25519*
+*.ppk
+
+# 数据库
+*.db
+*.sqlite
+*.sqlite3
+*.sql.backup
+
+# 日志（可能包含敏感信息）
+*.log
+logs/
+
+# Python 虚拟环境
+.venv/
+venv/
+env/
+dist/
+*.egg-info/
